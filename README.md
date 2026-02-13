@@ -29,7 +29,7 @@ Typical locations:
 - Windows: `dist/TIMESAT/` (DLLs)
 - Linux: `dist/TIMESAT/` (shared objects)
 
-See `THIRD_PARTY_NOTICES.txt` for additional dependencies and licenses.
+See [THIRD_PARTY_NOTICES.txt](https://github.com/TIMESAT/TIMESAT-GUI/blob/main/THIRD_PARTY_NOTICES.txt) for additional dependencies and licenses.
 
 ## Citation
 
