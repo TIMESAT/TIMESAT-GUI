@@ -37,6 +37,24 @@ If you use TIMESAT in your research, please cite the corresponding release:
 
 [https://doi.org/10.5281/zenodo.17369757](https://doi.org/10.5281/zenodo.17369757)
 
+## Documentation Website (GitHub Pages)
+
+The TIMESAT 4 manual is available in this repository at:
+
+- `docs/index.md`
+
+To publish it on GitHub Pages:
+
+1. Push this branch to GitHub.
+2. Open repository `Settings` -> `Pages`.
+3. In `Build and deployment`, set `Source` to `Deploy from a branch`.
+4. Select branch `main` (or your target branch) and folder `/docs`.
+5. Save and wait 1-2 minutes for deployment.
+
+After deployment, the page will be available at:
+
+- `https://<your-org-or-user>.github.io/<repo-name>/`
+
 ## Acknowledgments
 
 - [https://www.nateko.lu.se/TIMESAT](https://www.nateko.lu.se/TIMESAT)
