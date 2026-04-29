@@ -35,7 +35,7 @@ See [THIRD_PARTY_NOTICES.txt](https://github.com/TIMESAT/TIMESAT-GUI/blob/main/T
 
 If you use TIMESAT in your research, please cite the corresponding release:
 
-[https://doi.org/10.5281/zenodo.17369757](https://doi.org/10.5281/zenodo.17369757)
+[https://doi.org/10.5281/zenodo.19881054](https://doi.org/10.5281/zenodo.19881054)
 
 ## Acknowledgments
 
