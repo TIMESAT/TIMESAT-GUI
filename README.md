@@ -1,42 +1,44 @@
 # TIMESAT GUI
 
-TIMESAT GUI is a native Qt6 desktop application for configuring, running, and
-visualizing TIMESAT time-series analyses.
-
-This repository is the **authoritative (official) distribution channel** for
-the closed-source GUI and its official release artifacts.
+TIMESAT GUI is a desktop application for configuring, running, and reviewing TIMESAT time-series analyses of satellite vegetation data. It provides a guided workflow for loading input data, adjusting TIMESAT parameters, selecting outputs, running jobs, and reviewing fitted time-series and phenology results.
 
 ## Download
 
-Download the latest desktop application from GitHub Releases:
+Download the latest public executable release from GitHub Releases:
 
-- [https://github.com/TIMESAT/TIMESAT-GUI/releases/latest](https://github.com/TIMESAT/TIMESAT-GUI/releases/latest)
+- TODO: confirm release URL: `https://github.com/TIMESAT/TIMESAT-GUI/releases/latest`
 
-## Licensing
+## Documentation
 
-This GUI is distributed under a **Proprietary, Research‑Only** license.
-See `LICENSE` for full terms.
+Read the public user documentation on GitHub Pages:
 
-### Third‑Party Notices (Qt / PySide6)
+- TODO: confirm documentation URL.
 
-Qt for Python (PySide6) is used under the LGPLv3 in the official builds.
-The LGPLv3 text is bundled in the app as `LGPL-3.0.txt`.
-
-Users may replace the Qt/PySide6 shared libraries in the app bundle.
-Typical locations:
-
-- macOS: `TIMESAT.app/Contents/Frameworks/`
-- Windows: `dist/TIMESAT/` (DLLs)
-- Linux: `dist/TIMESAT/` (shared objects)
-
-See [THIRD_PARTY_NOTICES.txt](https://github.com/TIMESAT/TIMESAT-GUI/blob/main/THIRD_PARTY_NOTICES.txt) for additional dependencies and licenses.
+Local documentation pages are available in [`docs/index.md`](docs/index.md).
 
 ## Citation
 
-If you use TIMESAT in your research, please cite the corresponding release:
+If you use TIMESAT GUI or TIMESAT outputs in scientific work, cite the appropriate TIMESAT release and related publication.
 
-[https://doi.org/10.5281/zenodo.19881054](https://doi.org/10.5281/zenodo.19881054)
+- TODO: confirm preferred citation text and DOI.
 
-## Acknowledgments
+## Reporting Issues
 
-- [https://www.nateko.lu.se/TIMESAT](https://www.nateko.lu.se/TIMESAT)
+Please report public release issues through the repository issue tracker:
+
+- TODO: confirm issue tracker URL.
+
+When reporting an issue, include:
+
+- TIMESAT GUI version.
+- Operating system.
+- A short description of the problem.
+- Steps to reproduce the problem.
+- Public sample data or a minimal non-private example, if possible.
+- Screenshots only if they do not show private paths, credentials, or unpublished data.
+
+## License
+
+TODO: confirm public license summary for executable releases.
+
+See the license file included with each release for the full terms.
