@@ -12,6 +12,23 @@ Download the latest desktop application from GitHub Releases:
 
 - [https://github.com/TIMESAT/TIMESAT-GUI/releases/latest](https://github.com/TIMESAT/TIMESAT-GUI/releases/latest)
 
+## Download satellite time series from Google Earth Engine
+
+Use the [Time Series Explorer](https://caizhanzhang.users.earthengine.app/view/time-series-explorer)
+in your web browser to obtain a CSV time series for analysis in TIMESAT GUI.
+Internet access is required.
+
+1. Open the link above and select the satellite product, vegetation index and date range.
+2. Select a point on the map and wait for its time-series chart to appear.
+3. Click the icon in the upper-right corner of the chart to open the chart view.
+4. Choose **Download CSV** and save the file to your computer.
+5. In TIMESAT GUI, open **Inputs**, use **Browse...** under **Input Data** to select
+   the saved CSV, then click **Load Data**.
+
+Before importing, check that the CSV has a header row, dates in the first column
+(preferably `YYYY-MM-DD`) and numeric time-series values in the remaining columns.
+Sort observations by date and remove rows with missing dates or values if necessary.
+
 ## Licensing
 
 This GUI is distributed under a **Proprietary, Research‑Only** license.
